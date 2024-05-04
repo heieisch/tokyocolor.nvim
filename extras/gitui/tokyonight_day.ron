@@ -3,8 +3,8 @@
   command_fg: Some(Rgb(132,140,181)), // comment #848cb5
   selection_bg: Some(Rgb(196,200,218)), // bg_highlight #c4c8da
   selection_fg: Some(Rgb(0,113,151)), // cyan #007197
-  cmdbar_bg: Some(Rgb(225,226,231)), // bg #e1e2e7
-  cmdbar_extra_lines_bg: Some(Rgb(225,226,231)), // bg #e1e2e7
+  cmdbar_bg: Some(Rgb(255,255,255)), // bg #ffffff
+  cmdbar_extra_lines_bg: Some(Rgb(255,255,255)), // bg #ffffff
   disabled_fg: Some(Rgb(132,140,181)), // comment #848cb5
   diff_line_add: Some(Rgb(88,117,57)), // green #587539
   diff_line_delete: Some(Rgb(245,42,101)), // red #f52a65
@@ -16,7 +16,7 @@
   commit_time: Some(Rgb(17,140,116)), // teal #118c74
   commit_author: Some(Rgb(88,117,57)), // green #587539
   danger_fg: Some(Rgb(245,42,101)), // red #f52a65
-  push_gauge_bg: Some(Rgb(225,226,231)), // bg #e1e2e7
+  push_gauge_bg: Some(Rgb(255,255,255)), // bg #ffffff
   push_gauge_fg: Some(Rgb(55,96,191)), // fg #3760bf
   tag_fg: Some(Rgb(210,0,101)), // magenta2 #d20065
   branch_fg: Some(Rgb(140,108,62)), // yellow #8c6c3e
