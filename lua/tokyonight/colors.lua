@@ -43,10 +43,13 @@ M.default = {
 }
 
 M.night = {
-  bg = "#1a1b26",
-  bg_dark = "#16161e",
+  bg = "#1a1a1a",
+  bg_dark = "#161616",
 }
-M.day = M.night
+M.day = {
+  bg = "#000000",
+  bg_dark = "#161616",
+}
 
 M.moon = function()
   local ret = {
