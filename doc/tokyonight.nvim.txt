@@ -1,25 +1,28 @@
-*tokyonight.nvim.txt*      For Neovim >= 0.8.0      Last change: 2024 April 23
+*tokyonight.nvim.txt*       For Neovim >= 0.8.0       Last change: 2024 May 04
 
 ==============================================================================
 Table of Contents                          *tokyonight.nvim-table-of-contents*
 
-1. Tokyo Night                                   |tokyonight.nvim-tokyo-night|
-  - Storm                                  |tokyonight.nvim-tokyo-night-storm|
-  - Night                                  |tokyonight.nvim-tokyo-night-night|
-  - Moon                                    |tokyonight.nvim-tokyo-night-moon|
-  - Day                                      |tokyonight.nvim-tokyo-night-day|
-  - Features                            |tokyonight.nvim-tokyo-night-features|
-  - Requirements                    |tokyonight.nvim-tokyo-night-requirements|
-  - Installation                    |tokyonight.nvim-tokyo-night-installation|
-  - Usage                                  |tokyonight.nvim-tokyo-night-usage|
-  - Configuration                  |tokyonight.nvim-tokyo-night-configuration|
-  - Overriding Colors & Highlight Groups|tokyonight.nvim-tokyo-night-overriding-colors-&-highlight-groups|
-  - Extras                                |tokyonight.nvim-tokyo-night-extras|
-  - Contributing                    |tokyonight.nvim-tokyo-night-contributing|
+1. Tokyo Color                                   |tokyonight.nvim-tokyo-color|
+  - Storm                                  |tokyonight.nvim-tokyo-color-storm|
+  - Night                                  |tokyonight.nvim-tokyo-color-night|
+  - Moon                                    |tokyonight.nvim-tokyo-color-moon|
+  - Day                                      |tokyonight.nvim-tokyo-color-day|
+  - Features                            |tokyonight.nvim-tokyo-color-features|
+  - Requirements                    |tokyonight.nvim-tokyo-color-requirements|
+  - Installation                    |tokyonight.nvim-tokyo-color-installation|
+  - Usage                                  |tokyonight.nvim-tokyo-color-usage|
+  - Configuration                  |tokyonight.nvim-tokyo-color-configuration|
+  - Overriding Colors & Highlight Groups|tokyonight.nvim-tokyo-color-overriding-colors-&-highlight-groups|
+  - Extras                                |tokyonight.nvim-tokyo-color-extras|
+  - Contributing                    |tokyonight.nvim-tokyo-color-contributing|
 2. Links                                               |tokyonight.nvim-links|
 
 ==============================================================================
-1. Tokyo Night                                   *tokyonight.nvim-tokyo-night*
+1. Tokyo Color                                   *tokyonight.nvim-tokyo-color*
+
+a theme dirved from the tokyonight.nvim theme that draws some inspiration from
+darkular and adds a matching ligth theme still WIP
 
 A dark and light Neovim <https://github.com/neovim/neovim> theme written in Lua
 <https://www.lua.org> ported from the Visual Studio Code TokyoNight
@@ -30,19 +33,19 @@ A dark and light Neovim <https://github.com/neovim/neovim> theme written in Lua
 <https://fishshell.com/docs/current/index.html>.
 
 
-STORM                                      *tokyonight.nvim-tokyo-night-storm*
+STORM                                      *tokyonight.nvim-tokyo-color-storm*
 
 
-NIGHT                                      *tokyonight.nvim-tokyo-night-night*
+NIGHT                                      *tokyonight.nvim-tokyo-color-night*
 
 
-MOON                                        *tokyonight.nvim-tokyo-night-moon*
+MOON                                        *tokyonight.nvim-tokyo-color-moon*
 
 
-DAY                                          *tokyonight.nvim-tokyo-night-day*
+DAY                                          *tokyonight.nvim-tokyo-color-day*
 
 
-FEATURES                                *tokyonight.nvim-tokyo-night-features*
+FEATURES                                *tokyonight.nvim-tokyo-color-features*
 
 - Supports the latest Neovim <https://github.com/neovim/neovim>
     0.9.0 <https://github.com/neovim/neovim/releases/tag/v0.9.0> features.
@@ -80,13 +83,13 @@ EXTRAS ~
 - Zellij <https://zellij.dev/> (zellij <extras/zellij>)
 
 
-REQUIREMENTS                        *tokyonight.nvim-tokyo-night-requirements*
+REQUIREMENTS                        *tokyonight.nvim-tokyo-color-requirements*
 
 - Neovim <https://github.com/neovim/neovim> >=
     0.8.0 <https://github.com/neovim/neovim/releases/tag/v0.8.0>
 
 
-INSTALLATION                        *tokyonight.nvim-tokyo-night-installation*
+INSTALLATION                        *tokyonight.nvim-tokyo-color-installation*
 
 Install the theme with your preferred package manager, such as folke/lazy.nvim
 <https://github.com/folke/lazy.nvim>
@@ -101,7 +104,7 @@ Install the theme with your preferred package manager, such as folke/lazy.nvim
 <
 
 
-USAGE                                      *tokyonight.nvim-tokyo-night-usage*
+USAGE                                      *tokyonight.nvim-tokyo-color-usage*
 
 
 VIM SCRIPT ~
@@ -161,7 +164,7 @@ LIGHTLINE
 <
 
 
-CONFIGURATION                      *tokyonight.nvim-tokyo-night-configuration*
+CONFIGURATION                      *tokyonight.nvim-tokyo-color-configuration*
 
 
   Set the configuration **BEFORE** loading the color scheme with `colorscheme
@@ -214,7 +217,7 @@ unless `setup` is explicitly called.
 <
 
 
-OVERRIDING COLORS & HIGHLIGHT GROUPS*tokyonight.nvim-tokyo-night-overriding-colors-&-highlight-groups*
+OVERRIDING COLORS & HIGHLIGHT GROUPS*tokyonight.nvim-tokyo-color-overriding-colors-&-highlight-groups*
 
 How the highlight groups are calculated:
 
@@ -301,7 +304,7 @@ To have undercurls show up and in color, add the following to your Tmux
 <
 
 
-EXTRAS                                    *tokyonight.nvim-tokyo-night-extras*
+EXTRAS                                    *tokyonight.nvim-tokyo-color-extras*
 
 Extra color configs for Kitty <https://sw.kovidgoyal.net/kitty/conf.html>,
 Alacritty <https://github.com/alacritty/alacritty>, Fish
@@ -322,7 +325,7 @@ You can easily use the color palette for other plugins inside your Neovim
 <
 
 
-CONTRIBUTING                        *tokyonight.nvim-tokyo-night-contributing*
+CONTRIBUTING                        *tokyonight.nvim-tokyo-color-contributing*
 
 Pull requests are welcome.
 
