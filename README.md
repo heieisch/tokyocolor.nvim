@@ -1,4 +1,7 @@
-# 🏙 Tokyo Night
+# 🏙 Tokyo Color
+
+a theme dirved from the tokyonight.nvim theme that draws some inspiration from darkular and adds a matching 
+ligth theme still WIP
 
 A dark and light [Neovim](https://github.com/neovim/neovim) theme written in
 [Lua](https://www.lua.org) ported from the [Visual Studio Code
