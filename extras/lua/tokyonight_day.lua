@@ -1,8 +1,8 @@
 local colors = {
   _name = "tokyonight_day",
-  bg = "#e1e2e7",
-  bg_dark = "#e9e9ec",
-  bg_float = "#e9e9ec",
+  bg = "#ffffff",
+  bg_dark = "#e9e9e9",
+  bg_float = "#e9e9e9",
   bg_highlight = "#c4c8da",
   bg_popup = "#e9e9ec",
   bg_search = "#7890dd",
